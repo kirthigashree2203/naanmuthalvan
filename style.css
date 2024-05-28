@@ -1,7 +1,7 @@
 
 body{
     /*min-height:100vh;*/
-    background-image: url('pexels-adrien-olichon-1257089-2387819.jpg');
+    background-image: url('pexels-felixmittermeier-956981.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -14,8 +14,8 @@ body{
     top: 0;
     width: 100%;
     background: rgba(51, 51, 51, 0.1); /* White with 10% opacity */
-    backdrop-filter: blur(10px); /* Apply blur effect */
-    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    backdrop-filter: blur(3px); /* Apply blur effect */
+    -webkit-backdrop-filter: blur(3px); /* Safari support */
     color: rgb(8, 8, 8);
     padding: 10px 0;
     z-index: 1000;
@@ -38,7 +38,7 @@ body{
 }
 
 .navbar .logo span {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     margin: 0 10px;
     color: white; /* Ensure text color is white for readability */
@@ -72,7 +72,7 @@ body{
 
 main {
     padding-top: 60px; /* Space for the fixed navbar */
-    color: rgb(251, 251, 252);
+    color: rgb(251, 252, 252);
 }
 
 .content-section {
@@ -86,14 +86,14 @@ main {
     display:flex;
     height: 320px;
     width:550px;
-    padding:30px 50px;
+    padding:35px 50px;
     border-radius:50px;
     background-color:rgba(6, 5, 5, 0.027);
 
-    backdrop-filter: blur(10px);
-    border-top:2px solid rgba(251, 250, 250, 0.4);
-    border-left:2px solid rgba(255, 255, 255, 0.4);
-    box-shadow:6px 4px 4px rgba(0,0,0,0.089);
+    backdrop-filter: blur(0px);
+    border-top:2px solid rgba(251, 250, 250, 0);
+    border-left:2px solid rgba(255, 255, 255, 0.012);
+    box-shadow:6px 4px 4px rgba(0, 0, 0, 0.044);
 
     display:flex;
     flex-direction:column;
@@ -121,10 +121,10 @@ main {
     border-radius:50px;
     background-color:rgba(6, 5, 5, 0.027);
 
-    backdrop-filter: blur(10px);
-    border-top:2px solid rgba(251, 250, 250, 0.4);
-    border-left:2px solid rgba(255, 255, 255, 0.4);
-    box-shadow:6px 4px 4px rgba(0,0,0,0.089);
+    backdrop-filter: blur(5px);
+    border-top:3px solid rgba(251, 250, 250, 0);
+    border-left:3px solid rgba(255, 255, 255, 0);
+    box-shadow:8px 6px 6px rgba(0, 0, 0, 0);
 
     display:flex;
     flex-direction:column;
@@ -134,10 +134,10 @@ main {
     font-family:poppins,sans-serif;
     font-size:18px;
     text-align:justify;
-    line-height:185%;
+    line-height:155%;
 
     
-    margin-left:50%;
+    margin-left:5%;
     margin-top:5%; /* Adjust as needed */
     position: relative; /* or absolute */
     top:4%; /* Adjust as needed */
@@ -272,7 +272,7 @@ main {
 .anadiv h1{
     font-family: 'Times New Roman', Times, serif;
     font-size: 35px;
-    color: rgb(171, 94, 244);
+    color: rgb(94, 244, 139);
 }
 
 .anadiv p{
@@ -391,7 +391,7 @@ main {
     border-radius:50px;
     background-color:rgba(6, 5, 5, 0.027);
     
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(0px);
     border-top:2px solid rgba(251, 250, 250, 0.4);
     border-left:2px solid rgba(255, 255, 255, 0.4);
     box-shadow:6px 4px 4px rgba(0,0,0,0.089);
@@ -399,15 +399,7 @@ main {
 .products{
     text-align:center;
 }
-.box:hover{
-    background-color:rgb(123, 122, 122);
-    color:rgb(12, 12, 12);
-    font-size: 20px;
-    backdrop-filter: blur(20px);
-    border-top:2px solid rgba(251, 250, 250, 0.4);
-    border-left:2px solid rgba(255, 255, 255, 0.4);
-    box-shadow:6px 4px 4px rgba(0,0,0,0.089);
-}
+
 
 .box a{
     position:relative;
